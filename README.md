@@ -12,7 +12,7 @@ touch .eslintrc.js
 Add the following to your `.eslintrc.js`
 ```json
 {
-	"extends": "mile6-vue"
+	"extends": "@mile6/mile6-vue"
 }
 ```
 
@@ -22,8 +22,8 @@ Add the following two script to your package.json file.
 You'll need to replace `<src>` with the location of the files you'd like ESLint to target. This may be different for each project. 
 ```json
 "scripts": {
-	"lint": "eslint --ext .js,.vue <src>",
-	"lint:fix": "eslint --ext .js,.vue <src> --fix"
+	"lint": "eslint --ext .ts,.js,.vue <src>",
+	"lint:fix": "eslint --ext .ts,.js,.vue <src> --fix"
 },
 ```
 
