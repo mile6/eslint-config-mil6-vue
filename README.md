@@ -2,7 +2,7 @@
 
 ### Install package and dependencies
 ```
-npx install-peerdeps --dev eslint-config-mile6-vue
+npx install-peerdeps --dev @mile6/eslint-config-mile6-vue
 ```
 
 ### Create and configure your .eslintrc.js
