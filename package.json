@@ -1,6 +1,6 @@
 {
   "name": "@mile6/eslint-config-mile6-vue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mile6 coding standards for for JS. Specifically for use in our Vue.js projects",
   "repository": {
     "type": "git",
