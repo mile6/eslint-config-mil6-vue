@@ -18,9 +18,10 @@ module.exports = {
         'no-useless-concat': ['error'],
         'arrow-parens': ['error', 'as-needed'],
         "max-len": ["error", {
-            "code": 120,
+            "code": 150,
             "tabWidth": 4,
-            "ignoreStrings": true
+            "ignoreStrings": true,
+            "ignoreUrls": true,
         }],
     }
 }

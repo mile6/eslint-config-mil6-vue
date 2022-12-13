@@ -6,9 +6,10 @@ module.exports = {
     rules: {
         'vue/html-indent': ['error', 4],
         "vue/max-len": ["error", {
-            "code": 120,
+            "code": 150,
             "tabWidth": 4,
             "ignoreStrings": true,
+            "ignoreUrls": true,
             "ignoreHTMLAttributeValues": true,
         }],
     }
