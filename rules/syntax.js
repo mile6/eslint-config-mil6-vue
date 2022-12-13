@@ -17,5 +17,10 @@ module.exports = {
         'no-restricted-globals': 'error',
         'no-useless-concat': ['error'],
         'arrow-parens': ['error', 'as-needed'],
+        "max-len": ["error", {
+            "code": 120,
+            "tabWidth": 4,
+            "ignoreStrings": true
+        }],
     }
 }
